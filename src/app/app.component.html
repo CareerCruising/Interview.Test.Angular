@@ -1,0 +1,51 @@
+<h1>{{ title }} app is running!</h1>
+
+<h2>Diploma</h2>
+
+<table class="diploma">
+  <tr>
+    <td>Id:</td><td>{{ diploma?.Id }}</td>
+  </tr>
+  <tr>
+    <td>Credits:</td><td>{{ diploma?.Credits }}</td>
+  </tr>
+  <tr>
+    <td>Requirements:</td><td>{{ diploma?.Requirements }}</td>
+  </tr>
+</table>
+
+<h2>Students</h2>
+
+<div class="student" *ngIf="students[0] as student">
+  <h3>Student {{ student.Id }}</h3>
+  <ul>
+    <li *ngFor="let course of student.Courses">{{ course.Name }} - Mark: {{ course.Mark }}</li>
+  </ul>
+  <div class="has-graduated">Has graduated? {{ hasGraduated(diploma, student) }}</div>
+</div>
+
+<div class="student" *ngIf="students[1] as student">
+  <h3>Student {{ student.Id }}</h3>
+  <ul>
+    <li *ngFor="let course of student.Courses">{{ course.Name }} - Mark: {{ course.Mark }}</li>
+  </ul>
+  <div class="has-graduated">Has graduated? {{ hasGraduated(diploma, student) }}</div>
+</div>
+
+<div class="student" *ngIf="students[2] as student">
+  <h3>Student {{ student.Id }}</h3>
+  <ul>
+    <li *ngFor="let course of student.Courses">{{ course.Name }} - Mark: {{ course.Mark }}</li>
+  </ul>
+  <div class="has-graduated">Has graduated? {{ hasGraduated(diploma, student) }}</div>
+</div>
+
+<div class="student" *ngIf="students[3] as student">
+  <h3>Student {{ student.Id }}</h3>
+  <ul>
+    <li *ngFor="let course of student.Courses">{{ course.Name }} - Mark: {{ course.Mark }}</li>
+  </ul>
+  <div class="has-graduated">Has graduated? {{ hasGraduated(diploma, student) }}</div>
+</div>
+
+<router-outlet></router-outlet>
