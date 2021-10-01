@@ -11,7 +11,7 @@ All joking aside, there is no need to finish this in the span of a lunch hour.
 
 The test is so you can show us what clean code looks like. Clean it up as best you can!
 
-You will be joining a team that believes in S.O.L.I.D.D principles. We favour declaritive over imperative programming.
+You will be joining a team that believes in SOLID Design principles. We favour declarative over imperative programming.
 
 Submissions that follow these principles will be favored since you will fit right in with the current team. If there is a part of the test that blocks you from completing it, then put some comments explaining why it was blocking, and what you would have done if the obstacle was removed.
 
