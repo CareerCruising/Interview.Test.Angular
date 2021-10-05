@@ -80,6 +80,6 @@ describe('AppComponent', () => {
       graduated.push(app.hasGraduated(diploma, student));
     });
 
-    expect(graduated.length > 0).toBeFalsy();
+    expect(graduated[graduated.length -1]).toBeTruthy();
   });
 });
