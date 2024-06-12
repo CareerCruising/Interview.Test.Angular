@@ -25,3 +25,6 @@ You will be joining a team that believes in SOLID Design principles. We favour d
 Submissions that follow these principles will be favored since you will fit right in with the current team. If there is a part of the test that blocks you from completing it, then put some comments explaining why it was blocking, and what you would have done if the obstacle was removed.
 
 Good Luck!
+
+### Repo requirements
+- Node v16
