@@ -8,6 +8,12 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
+  "engines": {
+    "node": "16.13.2"
+  },
+  "volta": {
+    "node": "16.13.2"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "^15.2.0",
