@@ -27,4 +27,4 @@ Submissions that follow these principles will be favored since you will fit righ
 Good Luck!
 
 ### Repo requirements
-- Node v16
+- Node v18
